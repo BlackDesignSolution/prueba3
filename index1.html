@@ -1,0 +1,164 @@
+Aquí tienes un ejemplo del código para la página web de Renta Stand utilizando el framework de Bootstrap:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta Stand | Stands Publicitarios</title>
+    <meta name="description" content="Descubre stands innovadores y atractivos para tus eventos en Rentas Stand. Diseño personalizado y materiales de calidad. Impulsa tu marca con nuestros servicios de renta y venta de stands.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Renta Stand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <section id="inicio" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Stands Publicitarios Personalizados</h1>
+                    <h2>Diseño, Renta y Venta de Stands para Ferias y Eventos</h2>
+                    <a href="#contacto" class="btn btn-primary">Solicita Cotización</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/logos/logo.png" class="img-fluid" alt="Logo Renta Stand">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/stands/venta.jpg" class="card-img-top" alt="Venta de Stands">
+                        <div class="card-body">
+                            <h5 class="card-title">Venta de Stands</h5>
+                            <p class="card-text">Descubre nuestra amplia selección de stands publicitarios a la venta,
+                                diseñados para destacar tu marca en cualquier evento.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/stands/renta.jpg" class="card-img-top" alt="Renta de Stands">
+                        <div class="card-body">
+                            <h5 class="card-title">Renta de Stands</h5>
+                            <p class="card-text">Alquila nuestros stands publicitarios para tus eventos y ferias. Elige
+                                entre diversas opciones y destaca en cada ocasión.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/stands/implementacion.jpg" class="card-img-top" alt="Implementación de Stands">
+                        <div class="card-body">
+                            <h5 class="card-title">Implementación de Stands</h5>
+                            <p class="card-text">Desde el diseño hasta el montaje, te brindamos un servicio integral
+                                para crear stands que impresionen y generen impacto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Experiencia y Valores</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="lead">En Renta Stand, creemos en la excelencia y la creatividad
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+        <!-- Experiencia y Valores -->
+        <section id="experiencia-valores" class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>Nuestra Experiencia</h2>
+                        <p class="lead">Con más de 10 años en el mercado, somos líderes en diseño y construcción de stands
+                            para ferias y eventos. Hemos trabajado con marcas reconocidas a nivel nacional e
+                            internacional, destacando siempre por nuestra creatividad y calidad en cada proyecto.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Nuestros Valores</h2>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill me-2"></i>Calidad: Nos comprometemos a ofrecer stands de
+                                alta calidad que superen las expectativas de nuestros clientes.</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i>Innovación: Siempre estamos a la vanguardia en
+                                diseño y tecnología, creando stands únicos e impactantes.</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i>Puntualidad: Cumplimos con los plazos de entrega
+                                de nuestros proyectos, asegurando la satisfacción de nuestros clientes.</li>
+                            <li><i class="bi bi-check-circle-fill me-2"></i>Trato Personalizado: Nos dedicamos a entender las
+                                necesidades de cada cliente para ofrecer soluciones a medida.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Blog -->
+        <section id="blog" class="py-5">
+            <!-- Aquí iría el contenido de la sección del blog -->
+        </section>
+    
+        <!-- Contacto -->
+        <section id="contacto" class="py-5 bg-light">
+            <div class="container">
+                <!-- Aquí iría el formulario de contacto completamente funcional -->
+            </div>
+        </section>
+    
+        <!-- Pie de Página -->
+        <footer class="py-4 bg-dark text-white text-center">
+            <div class="container">
+                <p>Todos los derechos reservados © Renta Stand 2023</p>
+            </div>
+        </footer>
+    
+        <!-- Enlaces a los scripts de Bootstrap y otros scripts personalizados si fuera necesario -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    
+    </html>
+    

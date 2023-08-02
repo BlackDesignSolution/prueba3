@@ -1,0 +1,196 @@
+body{
+	background: rgb(32, 32, 32);
+}
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+	font-size: 3rem;
+	color: #ffffff;
+}
+h2{
+	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+	color: #ffffff;
+}
+.subtitle{
+	font-size: 3rem;
+}
+
+p{
+	font-family: 'Roboto Flex', sans-serif;
+	color: #ffffff;
+}
+.list-unstyled{
+	color: #ffffff;
+}
+
+/*-------------/navbar----------------------*/
+.text-empresa {
+	font-size: 1.5rem;
+}
+.stand{
+	background: #05043b;
+}
+.text-stand{
+	font-size: 1.5rem;
+	color: white;
+}
+
+/*-------------Btn----------------------*/
+.btn{
+	font-family: 'Roboto Flex', sans-serif;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 8px;
+    text-indent: 10px;
+    z-index: 2;
+}
+.btn{
+    transition: all 0.6s ease;
+}
+
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 110%;
+    left: -10%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #ffffff;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    border: 3px solid #03cc57;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.btn:hover::after{
+    background-color: #ffffff31;
+    transform: skew(20deg, 0deg) translateX(455px);
+}
+
+.btn:hover::before{
+    background-color: #03cc57;
+    border: 3px solid #029740;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+/*-------------/Btn----------------------*/
+
+.img-fluid{
+	border-radius: 2rem;
+}
+
+/*-------------Card----------------------*/
+
+.card{
+	box-shadow: 5px 5px 20px black;
+	overflow: hidden;
+	border-radius: 1rem;
+	transition: all 0.3s;
+}
+/*-------------/Card----------------------*/
+/*-------------exp-val--------------------*/
+
+.exp{
+	--opacidad-negro: 0.4;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/render5.jpg");
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*-------------exp-val--------------------*/
+/*--------------Comentarios---------------*/
+h5, h6{
+	color: #029740;
+}
+
+/*--------------/Comentarios---------------*/
+/*--------------/Contacto---------------*/
+	/*Btn1*/
+.btn1{
+	font-family: 'Roboto Flex', sans-serif;
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 8px;
+    text-indent: 10px;
+    z-index: 2;
+}
+.btn1{
+    transition: all 0.6s ease;
+}
+
+.btn1::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 110%;
+    left: -10%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #ffffff;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.btn1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    border: 3px solid #03cc57;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.btn1:hover::after{
+    background-color: #ffffff31;
+    transform: skew(20deg, 0deg) translateX(222px);
+}
+
+.btn1:hover::before{
+    background-color: #03cc57;
+    border: 3px solid #029740;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+	/*/Btn1*/
+.form-label, h4, .bi{
+	color: white;
+}
+	
+/*--------------/Contacto---------------*/
+/*-------------navbar----------------------*/
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.inicio {
+		padding-top: 0.1rem;
+	}
+	.servicios {
+		padding-top: 0.1rem;
+	}
+	.col-md-5{
+		padding-top: 3rem;
+	}
+}
+/*----------------/Empresa------------------------*/
