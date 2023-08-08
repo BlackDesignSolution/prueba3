@@ -36,7 +36,30 @@ p{
 	font-size: 1.5rem;
 	color: white;
 }
-
+/*---------------Whatsapp-------------------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:50px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+.float{
+	margin-top:16px;
+}
+/*---------------/Whatsapp-------------------*/
 /*-------------Btn----------------------*/
 .btn{
 	font-family: 'Roboto Flex', sans-serif;
@@ -97,6 +120,7 @@ p{
 /*-------------Card----------------------*/
 
 .card{
+    height: 38rem;
 	box-shadow: 5px 5px 20px black;
 	overflow: hidden;
 	border-radius: 1rem;
@@ -189,6 +213,9 @@ h5, h6{
 	.servicios {
 		padding-top: 0.1rem;
 	}
+    .card{
+        height: 45rem;
+    }
 	.col-md-5{
 		padding-top: 3rem;
 	}

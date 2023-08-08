@@ -180,9 +180,9 @@ p{
 	.inicio {
 		padding-top: 0.1rem;
 	}
-	.servicios {
-		padding-top: 0.1rem;
-	}
+	.img-container img{
+        width: 100%;
+    }
 	.col-md-5{
 		padding-top: 3rem;
 	}
