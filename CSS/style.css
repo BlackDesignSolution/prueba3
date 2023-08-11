@@ -112,10 +112,16 @@ p{
     transform: skew(20deg, 0deg) scale(1.1);
 }
 /*-------------/Btn----------------------*/
-
-.img-fluid{
-	border-radius: 2rem;
+/*--------------Inicio-------------------*/
+.img-ini{
+    display: block;
+    margin: 0 auto;
+    border-radius: 2rem;
+    width: 90%;
+    height: auto;
 }
+
+/*--------------/Inicio-------------------*/
 
 /*-------------Card----------------------*/
 
@@ -125,6 +131,16 @@ p{
 	overflow: hidden;
 	border-radius: 1rem;
 	transition: all 0.3s;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+.card-title, .card-text{
+    color: rgb(0, 0, 0);
+    
 }
 /*-------------/Card----------------------*/
 /*-------------exp-val--------------------*/
@@ -210,6 +226,10 @@ h5, h6{
 	.inicio {
 		padding-top: 0.1rem;
 	}
+    .img-ini{
+        width: 100%;
+        height: auto;
+    }
 	.servicios {
 		padding-top: 0.1rem;
 	}
