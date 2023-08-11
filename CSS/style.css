@@ -148,7 +148,7 @@ p{
 
 .exp{
 	--opacidad-negro: 0.4;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/render5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/render5.webp");
 	height: 50vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -156,9 +156,18 @@ p{
 }
 /*-------------exp-val--------------------*/
 /*--------------Comentarios---------------*/
-h5, h6{
-	color: #ffffff;
+.titulo{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
 }
+.grado{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
 .star i{
     font-size: 2rem;
     color: #fbff04;
