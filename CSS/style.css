@@ -229,7 +229,13 @@ p{
 .form-label, h4, .bi{
 	color: white;
 }
-	
+.titulo2{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
 /*--------------/Contacto---------------*/
 /*-------------navbar----------------------*/
 @media only screen and (max-width: 767px) {
