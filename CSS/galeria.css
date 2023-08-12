@@ -144,58 +144,7 @@ p{
 
 /*---------------/Galeria------------------*/
 /*--------------/Contacto---------------*/
-	/*Btn1*/
-.btn1{
-	font-family: 'Roboto Flex', sans-serif;
-    position: relative;
-    padding: 20px 50px;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 8px;
-    text-indent: 10px;
-    z-index: 2;
-}
-.btn1{
-    transition: all 0.6s ease;
-}
 
-.btn1::after{
-    content: "";
-    position: absolute;
-    width: 10%;
-    height: 110%;
-    left: -10%;
-    top: 0;
-    transform: skew(20deg, 0deg);
-    background-color: #ffffff;
-    z-index: -1;
-    transition: all 0.4s ease;
-}
-
-.btn1::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    transform: skew(20deg, 0deg);
-    border: 3px solid #03cc57;
-    transition: all 0.4s ease;
-    z-index: -1;
-}
-
-.btn1:hover::after{
-    background-color: #ffffff31;
-    transform: skew(20deg, 0deg) translateX(222px);
-}
-
-.btn1:hover::before{
-    background-color: #03cc57;
-    border: 3px solid #029740;
-    transform: skew(20deg, 0deg) scale(1.1);
-}
-	/*/Btn1*/
 .form-label, h4, .bi{
 	color: white;
 }
