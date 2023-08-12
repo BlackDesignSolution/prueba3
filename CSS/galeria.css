@@ -1,16 +1,6 @@
 body{
 	background: rgb(32, 32, 32);
 }
-
-.inicio{
-    --opacidad-negro: 0.4;
-    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/galeria/renderA.jpg");
-	height: 100vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 .navbar img{
     width: 2rem;
     margin-right: 1rem;
@@ -39,17 +29,37 @@ body{
 	margin-top:16px;
 }
 /*---------------/Whatsapp-------------------*/
-/*-------------Btn----------------------*/
-.btn{
-	font-family: 'Roboto Flex', sans-serif;
-    position: relative;
-    padding: 20px 50px;
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 8px;
-    text-indent: 10px;
-    z-index: 2;
+/*--------------Inicio---------------------*/
+.inicio{
+    --opacidad-negro: 0.4;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/galeria/renderA.jpg");
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+.text-ini{
+    padding-top: 6rem;
+    color: white;
+}
+
+h2{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 3rem;
+	color: #ffffff;
+    padding-top: 3rem;
+}
+    /*Btn*/
+    .btn {
+        font-family: 'Roboto Flex', sans-serif;
+        position: relative;
+        padding: 20px 50px;
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 8px;
+        text-indent: 10px;
+        z-index: 2;
+    }
 .btn{
     transition: all 0.6s ease;
 }
@@ -90,31 +100,49 @@ body{
     border: 3px solid #949702;
     transform: skew(20deg, 0deg) scale(1.1);
 }
-/*-------------/Btn----------------------*/
-.text-ini{
-    padding-top: 6rem;
-    color: white;
-}
-h2{
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 3rem;
-	color: #ffffff;
+    /*/Btn*/
+
+/*--------------Inicio---------------------*/
+
+/*---------------Galeria------------------*/
+.galeria img{
+    border-radius: 1rem;
 }
 p{
 	font-family: 'Roboto Flex', sans-serif;
 	color: #000000;
 
 }
-.p1{
-	font-family: 'Roboto Flex', sans-serif;
-	color: #ffffff;
-
+    /*imagen*/
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(255,255,255,0.9);
 }
-.galeria img{
-    border-radius: 10px;
-
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
+.thumbnail:hover{
+    transform: translateY(-4px);
+}
+.img-container:hover .overlay{
+    opacity: 1;
+}
+    /*imagen*/
 
+/*---------------/Galeria------------------*/
 /*--------------/Contacto---------------*/
 	/*Btn1*/
 .btn1{
@@ -171,40 +199,28 @@ p{
 .form-label, h4, .bi{
 	color: white;
 }
-	
-/*--------------/Contacto---------------*/
-/*--------------imagen------------------*/
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: rgba(255,255,255,0.9);
+
+.form-label, h4, .bi{
+	color: white;
 }
-.caption{
+.titulo2{
     font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
     text-align: center;
+    margin-bottom: 1.2rem;
 }
-.thumbnail:hover{
-    transform: translateY(-4px);
+.DC{
+    color: #ffffff;
 }
-.img-container:hover .overlay{
-    opacity: 1;
-}
-/*--------------imagen------------------*/
+/*--------------/Contacto---------------*/
+
 .text-blanco{
 	font-family: 'Roboto Flex', sans-serif;
 	color: #ffffff;
 }
+
 /*-------------navbar----------------------*/
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
