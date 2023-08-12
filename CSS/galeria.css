@@ -10,6 +10,11 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.navbar img{
+    width: 2rem;
+    margin-right: 1rem;
+}
 /*---------------Whatsapp-------------------*/
 .float{
 	position:fixed;

@@ -37,6 +37,11 @@ p{
 	font-size: 1.5rem;
 	color: white;
 }
+
+.navbar img{
+    width: 2rem;
+    margin-right: 1rem;
+}
 /*---------------Whatsapp-------------------*/
 .float{
 	position:fixed;
@@ -68,7 +73,7 @@ p{
     padding: 20px 50px;
     text-decoration: none;
     color: #fff;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
     text-indent: 10px;
     z-index: 2;
 }
@@ -181,7 +186,7 @@ p{
     padding: 20px 50px;
     text-decoration: none;
     color: #fff;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
     text-indent: 10px;
     z-index: 2;
 }
