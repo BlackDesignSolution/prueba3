@@ -109,7 +109,7 @@ p{
 
 .btn:hover::after{
     background-color: #ffffff31;
-    transform: skew(20deg, 0deg) translateX(455px);
+    transform: skew(20deg, 0deg) translateX(430px);
 }
 
 .btn:hover::before{
